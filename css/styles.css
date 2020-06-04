@@ -1,14 +1,63 @@
-body {
-  background-color: #e5e5e5;
-  color: #757575;
+:root {
+  --background-primary: #e5e5e5;
+  --background-secondary: #f5f4fa;
+  --text-primary: #757575;
+  --text-head: #212121;
+  --text-white: #ffffff;
+  --accent: #2196f3;
+  --background-dark: #2f303a;
+  --line-color: #ececec;
+  --icone-color: #afb1b8;
+  --frame-project: #eeeeee;
 }
 /* фон #E5E5E5 */
 /* вторичный фон #F5F4FA */
+/* основной текст #757575 */
+/* заглавный текст  #212121 */
+/* белий текст #FFFFFF */
 /* акнцент #2196F3 */
 /* затемненная панель #2F303A */
-/* основной текст #212121 */
-/* белий текст #FFFFFF */
-/* вторичный текст #757575 */
 /* линия #ECECEC */
 /* иконки #AFB1B8 */
 /* рамки проектов Портфолио #EEEEEE */
+
+body {
+  background-color: var(--background-primary);
+  color: var(--text-primary);
+  font-family: 'Roboto', sans-serif;
+}
+/* Логотип сайта */
+
+.site-logo {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+}
+.logo-web {
+  color: var(--accent);
+}
+.logo-studio-head {
+  color: var(--text-head);
+}
+.logo-studio-footer {
+  color: var(--text-white);
+}
+/* Оглавления страниц */
+.title {
+  color: var(--text-head);
+}
+/* убираем маркировку списка */
+ul {
+  list-style: none;
+}
+/* убираем стиль ссилок */
+a {
+  /* убираем подчёркивания */
+  text-decoration: none;
+}
+.site-nav {
+}
