@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/normalaize.css" />
@@ -38,82 +38,64 @@
     <!-- уникальний контент -->
     <main>
       <!-- Герой -->
-      <section>
+      <section class="hero">
         <h1 class="title">Эффективные решения для вашего бизнеса</h1>
-        <a href="">Заказать услугу</a>
+        <a class="button" href="">Заказать услугу</a>
       </section>
       <!-- Функции (Характерные черты) -->
-      <section>
-        <h2 class="title">Функции (Характерные черты)</h2>
+      <section class="section">
+        <h2>Функции (Характерные черты)</h2>
         <ul>
           <li>
             <h3 class="title">Внимание к деталям</h3>
-            <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
-            <img src="/images/images1.jpg" alt="Радар" />
+            <p class="text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+            <img src="/images/images1.jpg" alt="Радар" width="270" />
           </li>
           <li>
             <h3 class="title">Пунктуальность</h3>
             <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
-            <img src="/images/images2.jpg" alt="Часы" />
+            <img src="/images/images2.jpg" alt="Часы" width="270" />
           </li>
           <li>
             <h3 class="title">Планирование</h3>
             <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
-            <img src="/images/images3.jpg" alt="График" />
+            <img src="/images/images3.jpg" alt="График" width="270" />
           </li>
           <li>
             <h3 class="title">Современные технологии</h3>
             <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
-            <img src="/images/images4.jpg" alt="Космонавт" />
+            <img src="/images/images4.jpg" alt="Космонавт" width="270" />
           </li>
         </ul>
       </section>
       <!-- Чем мы занимаемся -->
-      <section>
-        <h2 class="title">Чем мы занимаемся</h2>
+      <section class="section">
+        <h2 class="title-section">Чем мы занимаемся</h2>
         <ul>
           <li>
-            <a href=""><h3 class="title">Десктопные приложения</h3></a>
+            <a href=""><h3 class="title on-dark">Десктопные приложения</h3></a>
             <img src="./images/img11.jpg" alt="Десктопные приложения" width="370" />
           </li>
           <li>
-            <a href=""><h3 class="title">Мобильные приложения</h3></a>
+            <a href=""><h3 class="title on-dark">Мобильные приложения</h3></a>
             <img src="./images/img12.jpg" alt="Мобильные приложения" width="370" />
           </li>
           <li>
-            <a href=""><h3 class="title">Дизайнерские решения</h3></a>
+            <a href=""><h3 class="title on-dark">Дизайнерские решения</h3></a>
             <img src="./images/img13.jpg" alt="Дизайнерские решения" width="370" />
           </li>
         </ul>
       </section>
       <!-- Наша команда -->
-      <section>
+      <section class="section shadow">
         <!-- Для иконок используем aria-label
           <li><a href="" aria-label="ссылка на instagram">instagram</a></li> -->
-        <h2 class="title">Наша команда</h2>
+        <h2 class="title-section">Наша команда</h2>
         <ul>
           <li>
-            <h3 class="title" lang="en">John Smith</h3>
-            <p lang="en">Product Designer</p>
-            <ul>
-              <li>
-                <a href="" aria-label="ссылка на instagram">instagram</a>
-              </li>
-              <li>
-                <a href="" aria-label="ссылка на twiter">twiter</a>
-              </li>
-              <li>
-                <a href="" aria-label="ссылка на facebook">facebook</a>
-              </li>
-              <li>
-                <a href="" aria-label="ссылка на IN">IN</a>
-              </li>
-            </ul>
             <img src="./images/foto1.jpg" alt="Фото" width="270" />
-          </li>
-          <li>
-            <h3 class="title" lang="en">Product Designer</h3>
-            <p lang="en">Frontend Developer</p>
+            <h3 class="title team" lang="en">John Smith</h3>
+            <p class="title work" lang="en">Product Designer</p>
             <ul>
               <li>
                 <a href="" aria-label="ссылка на instagram">instagram</a>
@@ -128,11 +110,11 @@
                 <a href="" aria-label="ссылка на IN">IN</a>
               </li>
             </ul>
+          </li>
+          <li>
             <img src="./images/foto2.jpg" alt="Фото" width="270" />
-          </li>
-          <li>
-            <h3 class="title" lang="en">Robert Jakis</h3>
-            <p lang="en">Marketing</p>
+            <h3 class="title team" lang="en">Product Designer</h3>
+            <p class="title work" lang="en">Frontend Developer</p>
             <ul>
               <li>
                 <a href="" aria-label="ссылка на instagram">instagram</a>
@@ -147,11 +129,11 @@
                 <a href="" aria-label="ссылка на IN">IN</a>
               </li>
             </ul>
+          </li>
+          <li>
             <img src="./images/foto3.jpg" alt="Фото" width="270" />
-          </li>
-          <li>
-            <h3 class="title" lang="en">Martin Doe</h3>
-            <p lang="en">UI Designer</p>
+            <h3 class="title team" lang="en">Robert Jakis</h3>
+            <p class="title work" lang="en">Marketing</p>
             <ul>
               <li>
                 <a href="" aria-label="ссылка на instagram">instagram</a>
@@ -166,13 +148,31 @@
                 <a href="" aria-label="ссылка на IN">IN</a>
               </li>
             </ul>
+          </li>
+          <li>
             <img src="./images/foto4.jpg" alt="Фото" width="270" />
+            <h3 class="title team" lang="en">Martin Doe</h3>
+            <p class="title work" lang="en">UI Designer</p>
+            <ul>
+              <li>
+                <a href="" aria-label="ссылка на instagram">instagram</a>
+              </li>
+              <li>
+                <a href="" aria-label="ссылка на twiter">twiter</a>
+              </li>
+              <li>
+                <a href="" aria-label="ссылка на facebook">facebook</a>
+              </li>
+              <li>
+                <a href="" aria-label="ссылка на IN">IN</a>
+              </li>
+            </ul>
           </li>
         </ul>
       </section>
       <!-- Постоянные клиенты -->
-      <section>
-        <h2 class="title">Постоянные клиенты</h2>
+      <section class="section">
+        <h2 class="title-section">Постоянные клиенты</h2>
         <!-- ul>li*6>a[aria-label=klient$] -->
         <ul>
           <li><a href="" aria-label="klient1"></a></li>
@@ -196,8 +196,8 @@
           </ul>
         </address>
       </div>
-      <div>
-        <b>Присоединяйтесь</b>
+      <div class="section">
+        <b class="title on-dark">Присоединяйтесь</b>
         <ul>
           <li>
             <a href="" aria-label="ссылка на instagram">instagram</a>
@@ -213,8 +213,8 @@
           </li>
         </ul>
       </div>
-      <div><b>Подписывайтесь на рассылку</b></div>
-      <p>2020 | Developed by GoIT Students</p>
+      <div class="section"><b class="title on-dark">Подписывайтесь на рассылку</b></div>
+      <p class="developed">2020 | Developed by GoIT Students</p>
     </footer>
   </body>
 </html>
