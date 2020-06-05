@@ -8,7 +8,10 @@
   --background-dark: #2f303a;
   --line-color: #ececec;
   --icone-color: #afb1b8;
-  --frame-project: #eeeeee;
+  --border-project: #eeeeee;
+  --font-size-primary: 14px;
+  --line-height-primary: 1.19;
+  --letter-spacing-primary: 0.03em;
 }
 /* фон #E5E5E5 */
 /* вторичный фон #F5F4FA */
@@ -25,30 +28,9 @@ body {
   background-color: var(--background-primary);
   color: var(--text-primary);
   font-family: 'Roboto', sans-serif;
-}
-/* Логотип сайта */
-
-.site-logo {
-  font-family: 'Raleway', sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 1.19;
-  /* identical to box height */
-  letter-spacing: 0.03em;
-}
-.logo-web {
-  color: var(--accent);
-}
-.logo-studio-head {
-  color: var(--text-head);
-}
-.logo-studio-footer {
-  color: var(--text-white);
-}
-/* Оглавления страниц */
-.title {
-  color: var(--text-head);
+  font-size: var(--font-size-primary);
+  line-height: var(--line-height-primary);
+  letter-spacing: var(--letter-spacing-primary);
 }
 /* убираем маркировку списка */
 ul {
@@ -58,4 +40,28 @@ ul {
 a {
   /* убираем подчёркивания */
   text-decoration: none;
+}
+/* Оглавления страниц */
+.title {
+  color: var(--text-head);
+}
+/* Логотип сайта */
+.site-logo {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  color: var(--accent);
+}
+.footer-logo {
+  font-size: 22px;
+}
+.logo-studio {
+  color: var(--text-head);
+}
+.site-logo.footer-logo > .logo-studio {
+  color: var(--text-white);
+}
+/* Навигация */
+.site-nav > .list {
 }
