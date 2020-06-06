@@ -9,6 +9,7 @@
   --line-color: #ececec;
   --icone-color: #afb1b8;
   --border-project: #eeeeee;
+  --font-weight: 400;
   --font-size-primary: 14px;
   --line-height-primary: 1.19;
   --letter-spacing-primary: 0.03em;
@@ -18,6 +19,7 @@ body {
   background-color: var(--background-primary);
   color: var(--text-primary);
   font-family: 'Roboto', sans-serif;
+  font-weight: var(--font-weight);
   font-size: var(--font-size-primary);
   line-height: var(--line-height-primary);
   letter-spacing: var(--letter-spacing-primary);
@@ -37,8 +39,7 @@ a {
   font-style: normal;
   /* добавляем наследование */
   color: inherit;
-  /* line-height: inherit;
-  letter-spacing: inherit; */
+  font-family: inherit;
 }
 /* Оглавления страниц */
 .title {
@@ -70,6 +71,10 @@ a {
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
+  color: var(--accent);
+}
+/* Фишка "Мы тут" */
+.site-nav .link.current {
   color: var(--accent);
 }
 /* Адресс */
@@ -176,3 +181,18 @@ a {
   color: var(--text-white);
 }
 /* Проекты */
+.section .pro {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.section .pro.on-dark {
+  line-height: 1.56;
+  letter-spacing: var(--letter-spacing-primary);
+  background: var(--accent);
+}
+.section .is-filter {
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--text-primary);
+}
