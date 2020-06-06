@@ -166,7 +166,7 @@ a {
   background: var(--background-secondary);
   font-weight: 500;
   font-size: 16px;
-  line-height: 162;
+  line-height: 1.62;
   /* identical to box height, or 162% */
   color: var(--text-head);
 }
