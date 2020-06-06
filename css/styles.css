@@ -105,7 +105,7 @@ a {
   letter-spacing: 0.06em;
   color: var(--text-white);
 }
-.hero .button {
+.button {
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
@@ -162,12 +162,17 @@ a {
 
 /* Страница 2 "Портфолио" */
 /* Фильтр */
-.section .filter .link {
+.section .filter .radio {
   background: var(--background-secondary);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   /* identical to box height, or 162% */
   color: var(--text-head);
+}
+.section .filter .radio:hover,
+.section .filter .radio:focus {
+  background: var(--accent);
+  color: var(--text-white);
 }
 /* Проекты */
